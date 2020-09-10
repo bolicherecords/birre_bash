@@ -1,5 +1,5 @@
 # birre_bash
-My little bash profile its a bash from devs to devs. Birre bash provide you a simple birre commands to use a code proyect with git.
+Birre Bash Profile is a bash from devs to devs. Birre bash provide you a simple birre commands to use a code proyect with git.
 
 <p>
 GIT Reset hard  -> # Explication</br>
