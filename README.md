@@ -1,13 +1,16 @@
 # birre_bash
 Birre Bash Profile is a bash from devs to devs. Birre bash provide you a simple birre commands to use a code proyect with git.
 
+*Disclaimer: not for miñiñes* 
 
 ## Install
 <p>
   To install copy the content of the birre_bash.txt file in your bash_profile, follows the next steps</br>
     1. nano ~/.bash_profile</br>
     2. Copy the content of birre_bash.txt</br>
-    3. Exit && Save
+    3. Save && Exit
+    4. . ~/.bash_profile
+    5. Enjoy little birre
 </p>
 
 ## Simple Birre Commands
