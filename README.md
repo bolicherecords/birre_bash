@@ -5,9 +5,9 @@ Birre Bash Profile is a bash from devs to devs. Birre bash provide you a simple 
 ## Install
 <p>
   To install copy the content of the birre_bash.txt file in your bash_profile, follows the next steps</br>
-    1. vim ~/.bash_profile</br>
+    1. nano ~/.bash_profile</br>
     2. Copy the content of birre_bash.txt</br>
-    3. write and quit (ESC -> :wq)
+    3. Exit && Save
 </p>
 
 ## Simple Birre Commands
@@ -27,6 +27,21 @@ cb branch_name
 </p>
 
 <p>
+<b>GIT branch</b></br>
+branchl
+</p>
+
+<p>
+<b>GIT branch branch_name</b></br>
+branchc branch_name
+</p>
+
+<p>
+<b>GIT branch -d branch_name</b></br>
+branchd branch_name
+</p>
+
+<p>
 <b>GIT add .</b></br>
 add
 </p>
@@ -39,6 +54,11 @@ commit "commit message"
 <p>
 <b>GIT commit -a -m "commit message"</b></br>
 commita "commit message"
+</p>
+
+<p>
+<b>GIT commit --allow-empty -m "commit message"</b></br>
+commite "commit message"
 </p>
 
 <p>
