@@ -1,3 +1,8 @@
+alias reset="git reset --hard HEAD~1"
+c(){ git checkout "$1"}
+cb(){ git checkout -b "$1"}
+alias add="git add ."
+commit(){ git commit -m "$1"}
 commita(){ git commit -a -m "$1"}
 alias pulldev="git pull origin development"
 alias pullrelease="git pull origin release"
