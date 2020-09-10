@@ -1,0 +1,7 @@
+commita(){ git commit -a -m "$1"}
+alias pulldev="git pull origin development"
+alias pullrelease="git pull origin release"
+alias pullmaster="git pull origin master"
+alias pushdev="git push origin development"
+alias pushrelease="git push origin release"
+alias pushmaster="git push origin master"
