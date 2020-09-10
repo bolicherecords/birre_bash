@@ -6,10 +6,10 @@ Birre Bash Profile is a bash from devs to devs. Birre bash provide you a simple 
 ## Install
 <p>
   To install copy the content of the birre_bash.txt file in your bash_profile, follows the next steps</br>
-    1. nano ~/.bash_profile</br>
-    2. Copy the content of birre_bash.txt</br>
-    3. Save && Exit
-    4. . ~/.bash_profile
+    1. nano ~/.bash_profile<br />
+    2. Copy the content of birre_bash.txt<br />
+    3. Save && Exit <br />
+    4. . ~/.bash_profile <br />
     5. Enjoy little birre
 </p>
 
