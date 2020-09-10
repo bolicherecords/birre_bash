@@ -1,12 +1,22 @@
-alias reset="git reset --hard HEAD~1"
 c(){ git checkout "$1"}
 cb(){ git checkout -b "$1"}
+alias branchl="git branch"
+branchc(){ git branch "$1"}
+branchd(){ git branch -d "$1"}
+branche(){ git branch -m "$1" "$2"}
 alias add="git add ."
+alias stash="git stash"
+alias stashp="git stash pop"
 commit(){ git commit -m "$1"}
 commita(){ git commit -a -m "$1"}
+commite(){ git commit -m "$1" --amend }
+alias commitl="git log --oneline"
+commitae(){ git commit --allow-empty -m "$1"}
 alias pulldev="git pull origin development"
 alias pullrelease="git pull origin release"
 alias pullmaster="git pull origin master"
 alias pushdev="git push origin development"
 alias pushrelease="git push origin release"
 alias pushmaster="git push origin master"
+alias resets="git reset"
+alias reseth="git reset --hard HEAD~1"
