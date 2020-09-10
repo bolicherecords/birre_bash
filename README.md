@@ -1,38 +1,62 @@
 # birre_bash
 My little bash profile its a bash from devs to devs. Birre bash provide you a simple birre commands to use a code proyect with git.
 
-GIT Reset hard  -> # Explication
+<p>
+GIT Reset hard  -> # Explication</br>
 reset           -> # Simple birre command
+</p>
 
-GIT checkout branch_name
+<p>
+GIT checkout branch_name</br>
 c branch_name
+</p>
 
-GIT checkout -b branch_name
+<p>
+GIT checkout -b branch_name</br>
 cb branch_name
+</p>
 
-GIT add .
+<p>
+GIT add .</br>
 add
+</p>
 
-GIT commit -m "commit message"
+<p>
+GIT commit -m "commit message"</br>
 commit "commit message"
+</p>
 
-GIT commit -a -m "commit message"
+<p>
+GIT commit -a -m "commit message"</br>
 commita "commit message"
+</p>
 
-GIT pull origin development
+<p>
+GIT pull origin development</br>
 pulldev
+</p>
 
-GIT pull origin release
+<p>
+GIT pull origin release</br>
 pullrelease
+</p>
 
-GIT pull origin master
+<p>
+GIT pull origin master</br>
 pullmaster
+</p>
 
-GIT push origin development
+<p>
+GIT push origin development</br>
 pushdev
+</p>
 
-GIT push origin release
+<p>
+GIT push origin release</br>
 pushrelease
+</p>
 
-GIT push origin master
+<p>
+GIT push origin master</br>
 pushmaster
+</p>
