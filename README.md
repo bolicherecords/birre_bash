@@ -12,8 +12,13 @@ Birre Bash Profile is a bash from devs to devs. Birre bash provide you a simple 
 
 ## Simple Birre Commands
 <p>
-<b>GIT Reset hard</b>  -> # Explication</br>
-reset           -> # Simple birre command
+<b>GIT Reset</b>  -> # Explication</br>
+resets            -> # Simple birre command
+</p>
+
+<p>
+<b>GIT Reset hard HEAD~1</b></br>
+reseth
 </p>
 
 <p>
@@ -42,8 +47,23 @@ branchd branch_name
 </p>
 
 <p>
+<b>GIT branch -m old_branch_name new_branch_name</b></br>
+branche old_branch_name new_branch_name
+</p>
+
+<p>
 <b>GIT add .</b></br>
 add
+</p>
+
+<p>
+<b>GIT stash</b></br>
+stash
+</p>
+
+<p>
+<b>GIT stash pop</b></br>
+stashp
 </p>
 
 <p>
@@ -57,8 +77,18 @@ commita "commit message"
 </p>
 
 <p>
-<b>GIT commit --allow-empty -m "commit message"</b></br>
+<b>GIT commit -m "new commit message" --amend</b></br>
 commite "commit message"
+</p>
+
+<p>
+<b>GIT log --oneline</b></br>
+commitl
+</p>
+
+<p>
+<b>GIT commit --allow-empty -m "commit message"</b></br>
+commitae "commit message"
 </p>
 
 <p>
