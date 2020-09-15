@@ -60,3 +60,23 @@ pushrelease
 GIT push origin master</br>
 pushmaster
 </p>
+
+<p>
+GIT pull origin {current_branch}</br>
+ggpull
+</p>
+
+<p>
+GIT push origin {current_branch}</br>
+ggpush
+</p>
+
+<p>
+GIT pull --rebase origin {current_branch}</br>
+ggpur
+</p>
+
+<p>
+git pull origin {current_branch} && git push origin {current_branch}</br>
+ggpnp
+</p>
