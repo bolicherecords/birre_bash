@@ -6,10 +6,11 @@ Birre Bash Profile is a bash from devs to devs. Birre bash provide you a simple 
 ## Install
 <p>
   To install copy the content of the birre_bash.txt file in your bash_profile, follows the next steps</br>
-    1. nano ~/.bash_profile<br />
-    2. Copy the content of birre_bash.txt<br />
-    3. Save && Exit <br />
-    4. . ~/.bash_profile <br />
+  	1. Agregar siguientes lineas al archivo .zshrc
+  		eval "$(rbenv init -)"
+		source ~/.birre_bash
+
+    2. Copiar birre_bash a la carpeta root
     5. Enjoy little birre
 </p>
 
@@ -110,6 +111,11 @@ pullmaster
 </p>
 
 <p>
+<b>GIT pull origin master-gt</b></br>
+pullmastergt
+</p>
+
+<p>
 <b>GIT push origin development</b></br>
 pushdev
 </p>
@@ -122,4 +128,59 @@ pushrelease
 <p>
 <b>GIT push origin master</b></br>
 pushmaster
+</p>
+
+<p>
+<b>GIT push origin master-gt</b></br>
+pushmastergt
+</p>
+
+<p>
+<b>bundle exec rubocop app spec  --format simple</b></br>
+rubocop
+</p>
+
+<p>
+<b>bundle exec rspec</b></br>
+rspec
+</p>
+
+<p>
+<b>redis-server --port 6378</b></br>
+redis78
+</p>
+
+<p>
+<b>redis-server --port 6379</b></br>
+redis79
+</p>
+
+<p>
+<b>redis-server --port 6380</b></br>
+redis80
+</p>
+
+<p>
+<b>redis-server --port 6381</b></br>
+redis81
+</p>
+
+<p>
+<b>redis-server --port 6378 && redis-server --port 6379 && redis-server --port 6380 && redis-server --port 6381</b></br>
+redisgg
+</p>
+
+<p>
+<b>bundle exec sidekiq</b></br>
+sidekiq
+</p>
+
+<p>
+<b>dotenv bundle exec sidekiq</b></br>
+envsidekiq
+</p>
+
+<p>
+<b>redis-server --port 6378 && redis-server --port 6379 && redis-server --port 6380 && redis-server --port 6381</b></br>
+redisgg
 </p>
