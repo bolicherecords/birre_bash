@@ -6,14 +6,14 @@ Birre Bash Profile is a bash from devs to devs. Birre bash provide you a simple 
 ## Install
 <p>
   To install copy the content of the birre_bash.txt file in your bash_profile, follows the next steps</br>
-  	1. Agregar siguientes lineas al archivo .zshrc
-  		<p>
-			eval "$(rbenv init -)"</br>
-			source ~/.birre_bash
-		</p>
+  
+    1. Agregar siguientes lineas al archivo .zshrc
+
+	eval "$(rbenv init -)"</br>
+	source ~/.birre_bash
 
     2. Copiar birre_bash a la carpeta root
-    5. Enjoy little birre
+    3. Enjoy little birre
 </p>
 
 ## Simple Birre Commands
